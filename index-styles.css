@@ -11,12 +11,17 @@ body {
 }
 
 .home {
-    color: white;
+    border: #F2CC8F;
+    border-style: solid;
+    border-width: 1vw;
+    color: #F2CC8F;
+    padding: 0 0.2rem;
     margin-left: 6vw;
     font: bold 26px Roboto, arial, helvetica;
+    /* text-decoration: underline; */
 }
 header {
-    background-color:black;
+    background-color: #81B29A;
     height: 10vh;
     display: flex;
     align-items: center;
@@ -29,7 +34,7 @@ section {
 .welcome {
     margin-top: 6vw;
     margin-left: 6vw;
-    color: black;
+    color: #3d405b;
     font: bold 20px Roboto, arial, helvetica;
 }
 
