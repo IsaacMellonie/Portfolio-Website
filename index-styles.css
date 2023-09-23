@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: bold 20px Roboto, arial, helvetica;
+}
+.main {
+}
+
+.home {
+    color: white;
+    margin-left: 6vw;
+    font: bold 26px Roboto, arial, helvetica;
+}
+header {
+    background-color:black;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+section {
+    height: 30rem;
+}
+.welcome {
+    margin-top: 6vw;
+    margin-left: 6vw;
+    color: black;
+    font: bold 20px Roboto, arial, helvetica;
+}
+
+footer {
+    font: bold 20px Roboto, arial, helvetica;
+}
