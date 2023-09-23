@@ -8,18 +8,29 @@ body {
     font: bold 20px Roboto, arial, helvetica;
 }
 .main {
+    
 }
 
-.home {
+.header-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #F2CC8F;
+    list-style-type: none;
+    margin: 0 3vw;
+    font: bold 20px Roboto, arial, helvetica;
+}
+
+.home-logo {
+    display: flex;
+    justify-self: flex-start;
     border: #F2CC8F;
     border-style: solid;
-    border-width: 1vw;
-    color: #F2CC8F;
-    padding: 0 0.2rem;
-    margin-left: 6vw;
-    font: bold 26px Roboto, arial, helvetica;
-    /* text-decoration: underline; */
+    border-width: 0.7vw;
+    font: bold 24px Roboto, arial, helvetica;
+
 }
+
 header {
     background-color: #81B29A;
     height: 10vh;
@@ -28,12 +39,13 @@ header {
     justify-content: flex-start;
 }
 
+
 section {
     height: 30rem;
 }
 .welcome {
-    margin-top: 6vw;
-    margin-left: 6vw;
+    margin-top: 7vw;
+    margin-left: 3vw;
     color: #3d405b;
     font: bold 20px Roboto, arial, helvetica;
 }
