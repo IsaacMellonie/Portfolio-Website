@@ -14,29 +14,31 @@ body {
 .header-links {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
     color: #F2CC8F;
     list-style-type: none;
     margin: 0 3vw;
-    font: bold 20px Roboto, arial, helvetica;
+    font: bold 14px Roboto, arial, helvetica;
 }
 
 .home-logo {
     display: flex;
     justify-self: flex-start;
+    padding: 0 0.2rem;
     border: #F2CC8F;
     border-style: solid;
-    border-width: 0.7vw;
+    border-width: 0.2rem;
     font: bold 24px Roboto, arial, helvetica;
 
 }
 
 header {
     background-color: #81B29A;
-    height: 10vh;
+    height: 3em;
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    align-items: ;
+    flex-direction: column;
+    
 }
 
 
