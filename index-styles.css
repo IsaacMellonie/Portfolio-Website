@@ -18,7 +18,7 @@ body {
 .home-logo {
     display: flex;
     justify-self: flex-start;
-    margin: 0 1rem;
+    margin: 0 0.8rem;
     color: #e84855;
     /* padding 0;
     color: white;
@@ -30,16 +30,16 @@ body {
 
 header, .copyright {
     background-color: white;
-    color: ;
-    height: 3em;
+    height: 2.5em;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font: bold 16px Roboto, arial, helvetica;
+    font-size: 1em;
+    /* font: bold 16px Roboto, arial, helvetica; */
 }
 
 a {
-    padding: 0.5rem;
+    padding: 0.2rem;
     text-decoration: none;
     color: #3185fc;
 }
@@ -47,16 +47,27 @@ a {
 section {
     /* height: 30.3rem; */
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
+    position: relative;
     margin: 0rem 1rem;
     background-color: white;
 }
 .welcome {
-    padding: 2rem 0rem;
-    color: #403f4c;
+    /* display: flex;
+    flex-direction: column; */
+    position: absolute;
+    top: 0.2rem;
+    left: 0.2rem;
+    padding: 2rem 0.5rem;
+    color: #f9dc5c;
     font: bold 3em Roboto, arial, helvetica;
+    text-shadow: 2rem;
+    
 }
-
+.box1 {
+    display: flex;
+}
 footer {
     font: bold 20px Roboto, arial, helvetica;
 }
@@ -74,13 +85,9 @@ li {
     color: #403f4c
 }
 .thanks {
-    font-size: 0.4em;
+    font-size: 1em;
     padding-top: 0.4rem;
     width: 16rem;
-}
-
-.hey {
-    color: #f9dc5c;
 }
 
 .selfie {
@@ -88,5 +95,9 @@ li {
     justify-content: center;
     align-items: center;
     margin: 2rem 0rem;
-    height: 10rem;
+    height: 10.7rem;
+}
+
+.hello {
+    position: absolute;
 }
