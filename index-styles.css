@@ -5,12 +5,12 @@
 }
 
 body {
-    font: bold 20px Roboto, arial, helvetica;
+    font: bold 20px Mulish, arial, helvetica;
 }
 
 .header-links {
     margin-right: 0.5rem;
-    color: white;
+    color: #3185fc;
     list-style-type: none;
 }
 
@@ -19,6 +19,7 @@ body {
     display: flex;
     justify-self: flex-start;
     margin: 0 1rem;
+    color: #e84855;
     /* padding 0;
     color: white;
     border-style: solid;
@@ -28,8 +29,8 @@ body {
 }
 
 header, .copyright {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: ;
     height: 3em;
     display: flex;
     align-items: center;
@@ -40,7 +41,7 @@ header, .copyright {
 a {
     padding: 0.5rem;
     text-decoration: none;
-    color: white;
+    color: #3185fc;
 }
 
 section {
@@ -49,7 +50,7 @@ section {
 }
 .welcome {
     padding: 2rem 1rem;
-    color: #e07a5f;
+    color: #403f4c;
     font: bold 3em Roboto, arial, helvetica;
 }
 
@@ -67,9 +68,14 @@ li {
     align-items: center;
     font-size: 0.6em;
     padding: 0 1rem;
+    color: #403f4c
 }
 .thanks {
     font-size: 0.4em;
     padding-top: 0.4rem;
-    
+    width: 16rem;
+}
+
+.hey {
+    color: #f9dc5c;
 }
