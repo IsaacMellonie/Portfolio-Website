@@ -47,11 +47,12 @@ a {
 section {
     /* height: 30.3rem; */
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    margin: 0rem 1rem;
     background-color: white;
 }
 .welcome {
-    padding: 2rem 1rem;
+    padding: 2rem 0rem;
     color: #403f4c;
     font: bold 3em Roboto, arial, helvetica;
 }
