@@ -46,7 +46,7 @@ section {
     flex-direction: column;
     justify-content: flex-start;
     position: relative;
-    padding: 0rem 1rem 0rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
     background-color: white;
     /* border-top: solid 0.1em #1b998b; */
 }
@@ -124,15 +124,22 @@ article {
     padding-bottom: 1.5em;
 }
 
-/* @media only screen and (min-width: 401px) and (max-width: 960px) {
-    .selfie {
-      height: 50vw;
-      justify-content: center;
-    } */
-
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-    section {
-        flex-direction: row;
-        /* justify-content: center;
-        align-items: center; */
+    .welcome {
+      font-size: 8rem;
     }
+    section {
+        align-items: center;
+        justify-content:center;
+    }
+}
+
+/* @media only screen and (min-width: 961px) {
+    .welcome {
+        font-size: 8rem;
+      }
+      section {
+          align-items: center;
+          justify-content:center;
+      }
+    } */
