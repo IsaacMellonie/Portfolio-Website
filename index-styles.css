@@ -31,7 +31,6 @@ header, footer{
     justify-content: space-between;
     font-size: 1em; 
     background-image: linear-gradient(-45deg, #f9dc5c, #1b998b);
-    /* background-color: #1b998b; */
 }
 
 a {
@@ -41,21 +40,16 @@ a {
 }
 
 section {
-    /* height: 28rem; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    position: relative;
     padding: 1rem 1rem 1rem 1rem;
     background-color: white;
-    /* border-top: solid 0.1em #1b998b; */
 }
 
 .welcome {
-    /* position: sticky; */
     top: 0.2rem;
     left: 0.2rem;
-    /* padding: 2rem 1.5rem; */
     color: #f9dc5c;
     font: bold 3em Roboto, arial, helvetica;
     transition: 0.3s;
@@ -64,11 +58,6 @@ section {
 .welcome:hover {
     color: #3185fc;
 }
-
-/* .box1 {
-    display: flex;
-    align-items: center;
-} */
 
 footer {
     margin-top: auto;
@@ -90,10 +79,6 @@ li {
 }
 
 .selfie {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    /* margin: 2rem 0rem; */
     height: 30vh;
 }
 
@@ -128,18 +113,21 @@ article {
     .welcome {
       font-size: 8rem;
     }
-    section {
-        align-items: center;
-        justify-content:center;
-    }
 }
 
-/* @media only screen and (min-width: 961px) {
+@media only screen and (min-width: 961px) {
     .welcome {
-        font-size: 8rem;
+        font-size: 10rem;
+      }
+      .thanks {
+        font-size: 2rem;
+        width: 26rem;
       }
       section {
           align-items: center;
-          justify-content:center;
+          justify-content:center;   
       }
-    } */
+      .selfie {
+        height: 16rem;
+      }
+    }
