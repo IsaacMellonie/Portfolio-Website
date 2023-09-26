@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: bold 20px Roboto, arial, helvetica;;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.7em;
+    height: 20rem;
+    padding: 1rem;
+}
+
+.header-links {
+    margin-right: 0.5rem;
+    padding: 0;
+}
+
+.home-logo, .copyright {
+    display: flex;
+    justify-self: flex-start;
+    margin: 0 0.8rem;
+    color: #f9dc5c;
+}
+
+header, footer{
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1em; 
+    background-image: linear-gradient(-45deg, #f9dc5c, #1b998b);
+}
+
+.box1, .box2, .box3, .box4, .box5 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 0 0.3em;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: white;
+}
+
+footer {
+    margin-top: auto;
+}
+
+li {
+    margin: 0 1rem
+}
+
+.copyright {
+    font-size: 0.7em;
+    background-color: none;
+    color: black;
+}
+
+nav {
+    padding-right: 0.3rem;
+    padding-top: 0.3em;
+}
+
+/* .contact {
+    display: inline-flex;
+    font: bold 0.8em;
+    padding-bottom: 1.5em;
+} */
+
+/* @media only screen and (min-width: 401px) and (max-width: 960px) {
+    .welcome {
+      font-size: 8rem;
+    }
+}
+
+@media only screen and (min-width: 961px) {
+    .welcome {
+        font-size: 10rem;
+      }
+      .thanks {
+        font-size: 2rem;
+        width: 26rem;
+      }
+      section {
+          align-items: center;
+          justify-content:center;   
+      }
+      .selfie {
+        height: 16rem;
+      }
+    } */
