@@ -12,7 +12,9 @@ body {
 }
 
 article {
-    box-shadow: 0px 1px 5px #bebebe;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     font-size: 0.7em;
     height: 50%;
     width: 90%;
@@ -21,7 +23,8 @@ article {
     margin: 1rem;
     padding: 0.5rem 2rem;
     align-items: flex-start;
-    background-color: #e4e4e4;
+    background-color: #eeeeee;
+    box-shadow: 0px 1px 5px #f3f3f3;
 }
 
 .header-links {
@@ -47,14 +50,6 @@ header, footer{
     justify-content: space-between;
     font-size: 1em; 
     background-image: linear-gradient(-45deg, #f9dc5c, #1b998b);
-}
-
-.box1, .box2, .box3, .box4, .box5 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-
 }
 
 a {
