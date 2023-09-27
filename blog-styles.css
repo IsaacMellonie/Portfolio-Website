@@ -110,32 +110,14 @@ p {
 }
 
 
-
-/* .contact {
-    display: inline-flex;
-    font: bold 0.8em;
-    padding-bottom: 1.5em;
-} */
-
-/* @media only screen and (min-width: 401px) and (max-width: 960px) {
-    .welcome {
-      font-size: 8rem;
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    article {
+        font-size: 1em;
     }
 }
 
 @media only screen and (min-width: 961px) {
-    .welcome {
-        font-size: 10rem;
-      }
-      .thanks {
-        font-size: 2rem;
-        width: 26rem;
-      }
-      section {
-          align-items: center;
-          justify-content:center;   
-      }
-      .selfie {
-        height: 16rem;
-      }
-    } */
+    p {
+        font-size: 1.5em;
+    }
+}
