@@ -14,11 +14,13 @@ body {
 article {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: flex-start;
+    box-shadow: 0px 1px 5px #bebebe;
     font-size: 0.7em;
-    height: 20rem;
-    padding: 1rem;
+    height: 27rem;
+    width: 18rem;
+    /* padding: 0.5rem; */
+    margin: 3rem;
 }
 
 .header-links {
@@ -45,6 +47,11 @@ header, footer{
 .box1, .box2, .box3, .box4, .box5 {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    margin: 1rem;
+    padding: 0 2rem;
+    align-items: flex-start;
+    background-color: #e4e4e4;
 
 }
 
@@ -57,8 +64,9 @@ a {
 section {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    padding: 1rem 1rem 1rem 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem;
     background-color: white;
 }
 
@@ -79,6 +87,19 @@ li {
 nav {
     padding-right: 0.3rem;
     padding-top: 0.3em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    padding: 1rem 0;
+}
+
+.title {
+
 }
 
 /* .contact {
