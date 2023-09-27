@@ -21,18 +21,17 @@ article {
     height: 50%;
     width: 90%;
     max-width: 700px;
-    /* padding: 0.5rem; */
     margin: 3rem;
     transition: 0.3s;
-}
-
-article:hover {
-    
 }
 
 .header-links {
     margin-right: 0.5rem;
     padding: 0;
+}
+
+.blog {
+    color: #1b998b;
 }
 
 .home-logo, .copyright {
@@ -56,7 +55,7 @@ header, footer{
     flex-direction: column;
     justify-content: space-between;
     margin: 1rem;
-    padding: 0 2rem;
+    padding: 0.5rem 2rem;
     align-items: flex-start;
     background-color: #e4e4e4;
 
@@ -66,9 +65,14 @@ a {
     text-decoration: none;
     color: black;
     padding: 0 0.3em;
+    transition: 0.3s;
 }
 
-section {
+a:hover {
+    color: #3185fc;
+}
+
+section, .return {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -105,9 +109,7 @@ p {
     padding: 1rem 0;
 }
 
-.title {
 
-}
 
 /* .contact {
     display: inline-flex;
