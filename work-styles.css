@@ -21,10 +21,10 @@ article {
     max-width: 700px;
     transition: 0.3s;
     margin: 1rem;
-    padding: 2rem 2rem;
+    padding: 0.5rem 2rem;
     align-items: flex-start;
-    /* background-color: #eeeeee;
-    box-shadow: 0px 1px 5px #f3f3f3; */
+    background-color: #eeeeee;
+    box-shadow: 0px 1px 5px #f3f3f3;
 }
 
 .header-links {
@@ -43,6 +43,14 @@ article {
     color: #f9dc5c;
 }
 
+.title {
+    padding-top: 0;
+}
+
+.dates {
+    font-size: 0.7rem;
+}
+
 header, footer{
     height: 2.5em;
     display: flex;
@@ -50,17 +58,6 @@ header, footer{
     justify-content: space-between;
     font-size: 1em; 
     background-image: linear-gradient(-45deg, #f9dc5c, #1b998b);
-}
-
-.box2 {
-    margin-top: 0;
-}
-
-.box1 {
-    margin-bottom: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-top: 0;
 }
 
 a {
@@ -111,38 +108,21 @@ p {
     padding: 1rem 0;
 }
 
-.demoreel {
-    text-decoration: underline;
-}
 
 @media only screen and (min-width: 401px) and (max-width: 960px) {
     p, article {
-        align-items: center;
         font-size: 1em;
     }
-    .kai-me, .gifs {
-        float: left;
-        width: 90%;
-        padding: 1rem;
+    .dates {
+        font-size: 1rem;
     }
 }
 
 @media only screen and (min-width: 961px) {
-    article {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        padding: 1rem;
-        font-size: 1.2em;
-        min-width: 800px;
-        max-width: 900px;
-    }
-    .kai-me, .gifs {
-        float: left;
-        padding: 1rem;
-        margin-right: 2rem;
-    }
-    .page-header {
+    p {
         font-size: 1.5em;
+    }
+    .dates {
+        font-size: 1rem;
     }
 }
