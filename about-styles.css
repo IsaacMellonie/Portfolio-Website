@@ -12,20 +12,19 @@ body {
 }
 
 article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     font-size: 0.7em;
-    height: 40%;
+    height: 50%;
     width: 90%;
     max-width: 700px;
     transition: 0.3s;
-    margin: 0rem 0rem;
-    padding: 0rem 1rem 0rem 1rem;
+    margin: 1rem;
+    padding: 2rem 2rem;
     align-items: flex-start;
     background-color: #eeeeee;
     box-shadow: 0px 1px 5px #f3f3f3;
-}
-
-.box1 {
-    padding-top: 1rem;
 }
 
 .header-links {
@@ -51,6 +50,15 @@ header, footer{
     justify-content: space-between;
     font-size: 1em; 
     background-image: linear-gradient(-45deg, #f9dc5c, #1b998b);
+}
+
+.box2 {
+    margin-top: 0;
+}
+
+.box1 {
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 a {
@@ -92,57 +100,40 @@ nav {
     padding-top: 0.3em;
 }
 
-img, .gifs {
+img {
     max-width: 100%;
     height: auto;
-    padding: 1rem
 }
 
-p, .demoreel {
-    padding: 1rem ;
+p {
+    padding: 1rem 0;
 }
+
 .demoreel {
     text-decoration: underline;
 }
 
-
 @media only screen and (min-width: 401px) and (max-width: 960px) {
     p, article {
+        align-items: flex-start;
         font-size: 1em;
-        max-width: 500px;
-        margin: 0rem 1rem;
-        padding: 0rem 2rem 0rem 2rem;
-    }
-    img {
-        max-width: 10rem;
-        float: left;
-        padding: 0.5rem;
-    }
-    p {
-        padding: 0;
-        
+        /* margin: 0rem 1rem;
+        padding: 0rem 2rem 0rem 2rem; */
     }
 }
 
 @media only screen and (min-width: 961px) {
     article {
         display: flex;
-        align-items: flex-start;
+        flex-direction: row;
+        justify-content: flex-start;
         padding: 1rem;
-        font-size: 1em;
+        font-size: 1.2em;
+        min-width: 800px;
         max-width: 1000px;
     }
-
-    .kai-me {
-        max-width: 30%;
+    img {
+        float: left;
         padding: 1rem;
-    }
-
-    .gifs {
-        max-width: 40%;
-        padding: none;
-    }
-    div {
-        min
     }
 }
