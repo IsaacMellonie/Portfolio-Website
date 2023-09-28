@@ -32,7 +32,7 @@ article {
     padding: 0;
 }
 
-.blog {
+.page-header {
     color: #1b998b;
 }
 
@@ -135,5 +135,8 @@ p {
     img {
         float: left;
         padding: 1rem;
+    }
+    .page-header {
+        font-size: 1.5em;
     }
 }
