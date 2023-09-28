@@ -132,7 +132,7 @@ p {
         min-width: 800px;
         max-width: 1000px;
     }
-    img {
+    .kai-me, .gifs {
         float: left;
         padding: 1rem;
     }
