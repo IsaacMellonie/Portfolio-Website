@@ -23,8 +23,8 @@ article {
     margin: 1rem;
     padding: 2rem 2rem;
     align-items: flex-start;
-    background-color: #eeeeee;
-    box-shadow: 0px 1px 5px #f3f3f3;
+    /* background-color: #eeeeee;
+    box-shadow: 0px 1px 5px #f3f3f3; */
 }
 
 .header-links {
@@ -58,7 +58,9 @@ header, footer{
 
 .box1 {
     margin-bottom: 0;
+    margin-top: 0;
     padding-bottom: 0;
+    padding-top: 0;
 }
 
 a {
@@ -133,11 +135,12 @@ p {
         padding: 1rem;
         font-size: 1.2em;
         min-width: 800px;
-        max-width: 1000px;
+        max-width: 900px;
     }
     .kai-me, .gifs {
         float: left;
         padding: 1rem;
+        margin-right: 2rem;
     }
     .page-header {
         font-size: 1.5em;
