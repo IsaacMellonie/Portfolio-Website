@@ -43,6 +43,14 @@ article {
     color: #f9dc5c;
 }
 
+.title {
+    padding-top: 0;
+}
+
+.dates {
+    font-size: 0.7rem;
+}
+
 header, footer{
     height: 2.5em;
     display: flex;
@@ -105,10 +113,16 @@ p {
     p, article {
         font-size: 1em;
     }
+    .dates {
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (min-width: 961px) {
     p {
         font-size: 1.5em;
+    }
+    .dates {
+        font-size: 1rem;
     }
 }
