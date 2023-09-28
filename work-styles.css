@@ -142,24 +142,36 @@ button {
     background-color: #eeeeee;
 }
 
+button:hover {
+    color: #3185fc;
+}
+
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-    p, article, .work-title {
+    p, article, .work-title, .dates {
         font-size: 1em;
     }
-    .dates {
-        font-size: 1rem;
+    li {
+        font-size: 0.9rem;
+    }
+    .box3 {
+        flex-direction: row;
+        min-height: 0;
     }
 }
 
 @media only screen and (min-width: 961px) {
-    p {
+    /* p {
         font-size: 1.2em;
-    }
-    .dates {
+    } */
+    .dates, li {
         font-size: 1rem;
     }
 
-    .work-title {
+    .work-title, p {
         font-size: 1.5rem;
+    }
+    .box3 {
+        flex-direction: row;
+        min-height: 0;
     }
 }
