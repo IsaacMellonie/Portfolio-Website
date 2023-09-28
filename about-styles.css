@@ -13,15 +13,19 @@ body {
 
 article {
     font-size: 0.7em;
-    height: 50%;
+    height: 40%;
     width: 90%;
     max-width: 700px;
     transition: 0.3s;
-    margin: 1rem;
-    padding: 2rem 2rem;
+    margin: 0rem 0rem;
+    padding: 0rem 1rem 0rem 1rem;
     align-items: flex-start;
     background-color: #eeeeee;
     box-shadow: 0px 1px 5px #f3f3f3;
+}
+
+.box1 {
+    padding-top: 1rem;
 }
 
 .header-links {
@@ -91,16 +95,32 @@ nav {
 img, .gifs {
     max-width: 100%;
     height: auto;
+    padding: 1rem
 }
 
-p {
-    padding: 1rem 0;
+p, .demoreel {
+    padding: 1rem ;
+}
+.demoreel {
+    text-decoration: underline;
 }
 
 
 @media only screen and (min-width: 401px) and (max-width: 960px) {
     p, article {
         font-size: 1em;
+        max-width: 500px;
+        margin: 0rem 1rem;
+        padding: 0rem 2rem 0rem 2rem;
+    }
+    img {
+        max-width: 10rem;
+        float: left;
+        padding: 0.5rem;
+    }
+    p {
+        padding: 0;
+        
     }
 }
 
@@ -109,17 +129,15 @@ p {
         display: flex;
         align-items: flex-start;
         padding: 1rem;
+        font-size: 1em;
+        max-width: 1000px;
     }
 
     .kai-me {
-        max-width: 40%;
+        max-width: 30%;
         padding: 1rem;
     }
 
-    /* p {
-        padding: 1rem;
-    }
-     */
     .gifs {
         max-width: 40%;
         padding: none;
