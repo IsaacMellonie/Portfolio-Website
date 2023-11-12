@@ -2,7 +2,7 @@
 
 ## Author: Isaac Eveans Mellonie
 
-### [Website](https://isaac-eveans-mellonie-t1a2.vercel.app/)
+### [Website](https://www.isaacmellonie.com)
 
 ### [Github Repo](https://github.com/IsaacMellonie/T1A2-Portfolio-Website)
 
